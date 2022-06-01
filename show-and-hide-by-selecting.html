@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show and Hide by Selecting</title>
+    <style>
+        .details {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<input type="checkbox"  value="" id="checkbox">
+    
+    <select id="student-detail">
+        <option>Select Name</option>
+        <option value="ram">Ram</option>
+        <option value="shyam">Shyam</option>
+        <option value="geeta">Geeta</option>
+        <option value="sita">Sita</option>
+    </select>
+    <div id="details-container">
+        <div class="ram details">
+            <p> Name : Ram </p>
+            <p>Address : Delhi</p>
+            <p> Age : 15</p>
+        </div>
+
+        <div class="shyam details">
+            <p> Name : Rhyam </p>
+            <p>Address : Delhi</p>
+            <p> Age : 15</p>
+        </div>
+
+        <div class="geeta details">
+            <p> Name : Geeta </p>
+            <p>Address : Delhi</p>
+            <p> Age : 15</p>
+        </div>
+
+        <div class="sita details">
+            <p> Name : Sita </p>
+            <p>Address : Delhi</p>
+            <p> Age : 15</p>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+            $(document).ready(function(){
+              $('#student-detail').change(function(){
+                 var name =  $('#student-detail').val();
+                 console.log(name);
+                 $('.details').hide();
+                  $('.'+name).show()
+              })
+            });
+
+            // check and uncheck
+
+            // document.getElementById('checkbox').onclick=function(){
+                
+            //     if(this.checked){
+            //         console.log("Check box")
+            //     }else{
+            //         console.log("Uncheck box")
+            //     }
+            // };
+
+          
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+JavaScript Interview Question
+
+// What is the string method
+// array mthod map and filter
+// What is the closure and what is the use in opps of closure.
+// How many type of we can define a object?
+// what is the callback function()?
+// what are the array methods? what is the different between map and filter method?
+
+
