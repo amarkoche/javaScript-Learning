@@ -1,5 +1,5 @@
 console.log("Welcome to functin currying");
-// Currying is a technique of evaluating funciton with multiple argumetns, into sequence of function with single argument.
+// Currying is a technique of evaluating funciton with multiple argumetns, into the sequence of function with single argument.
 
 // function sum(a){
 //     return function(b){ // Anononums function

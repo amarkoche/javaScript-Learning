@@ -3,10 +3,10 @@ console.log("what is the hoisting in javaScript ?");
 
 
 1] Hoisting in javascipt : You can access the variable and function event before you have to initialize it.
-
+3] Even before the code start executing, memory is allocated to this all variable and functionho.
 2] Hoisting is a javascript mechanisum where a variable and funciton declaration are move to top of their scope before the code executing. 
 
-3] Even before the code start executing, memory is allocated to this all variable and functionho
+
 
 4] You can access it without any error
 
