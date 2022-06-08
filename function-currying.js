@@ -21,7 +21,7 @@ console.log("Welcome to functin currying");
 // let total = sum(5)(10)(15)(20);
 // console.log(total);
 
-
+// Used on project
 // userObj={
 //     name:"Amar",
 //     age:35
@@ -44,8 +44,7 @@ function add(a){
             return a;  
     }
 }
-
-
+// let sum =(add(5)(5)());
 
 let sum = (add(5)(5)(5)(8));
 console.log(sum)
